@@ -1,8 +1,34 @@
-﻿Array.prototype.__yy_owner=0;var g_RUN=0x80000000;var JSON_game={Extensions:[],ExtensionOptions:{},Sounds:[{pName:"Ballin",kind:0,extension:"",origName:"Ballin",effects:0,volume:1,pan:0,preload:false,groupId:0},{pName:"Death",kind:0,extension:"",origName:"Death",effects:0,volume:1,pan:0,preload:false,groupId:0},{pName:"Discord",kind:0,extension:"",origName:"Discord",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"Doom",kind:0,extension:"",origName:"Doom",effects:0,volume:1,pan:0,preload:false,
-groupId:1},{pName:"Freien",kind:0,extension:"",origName:"Freien",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"HorMovement",kind:0,extension:"",origName:"HorMovement",effects:0,volume:1,pan:0,preload:false,groupId:0},{pName:"Idol",kind:0,extension:"",origName:"Idol",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"Jschlatt",kind:0,extension:"",origName:"Jschlatt",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"Kazotsky",kind:0,extension:"",origName:"Kazotsky",effects:0,
-volume:1,pan:0,preload:false,groupId:1},{pName:"Line_Clear",kind:0,extension:"",origName:"Line_Clear",effects:0,volume:1,pan:0,preload:false,groupId:0},{pName:"LvlUp",kind:0,extension:"",origName:"LvlUp",effects:0,volume:1,pan:0,preload:false,groupId:0},{pName:"M_Ending",kind:0,extension:"",origName:"M_Ending",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"Pickles",kind:0,extension:"",origName:"Pickles",effects:0,volume:1,pan:0,preload:false,groupId:0},{pName:"Place",kind:0,extension:"",
-origName:"Place",effects:0,volume:1,pan:0,preload:false,groupId:0},{pName:"Plankton",kind:0,extension:"",origName:"Plankton",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"Portal",kind:0,extension:"",origName:"Portal",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"Renai",kind:0,extension:"",origName:"Renai",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"Rotate",kind:0,extension:"",origName:"Rotate",effects:0,volume:1,pan:0,preload:false,groupId:0},{pName:"T1",kind:0,
-extension:"",origName:"T1",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"T2",kind:0,extension:"",origName:"T2",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"T3",kind:0,extension:"",origName:"T3",effects:0,volume:1,pan:0,preload:false,groupId:1},{pName:"Versus",kind:0,extension:"",origName:"Versus",effects:0,volume:1,pan:0,preload:false,groupId:1}],AudioGroups:[{name:"audiogroup_default",enabled:true,},{name:"Music",enabled:true,}],Sprites:[{pName:"_0",width:7,height:7,transparent:false,
+﻿Array.prototype.__yy_owner=0;var g_RUN=0x80000000;var JSON_game={Extensions:[],ExtensionOptions:{},
+Sounds:[
+	{pName:"Ballin",kind:0,extension:"",origName:"Ballin",effects:0,volume:1,pan:0,preload:false,groupId:0},
+	{pName:"Death",kind:0,extension:"",origName:"Death",effects:0,volume:1,pan:0,preload:false,groupId:0},
+	{pName:"Discord",kind:0,extension:"",origName:"Discord",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"Doom",kind:0,extension:"",origName:"Doom",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"Freien",kind:0,extension:"",origName:"Freien",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"HorMovement",kind:0,extension:"",origName:"HorMovement",effects:0,volume:1,pan:0,preload:false,groupId:0},
+	{pName:"Idol",kind:0,extension:"",origName:"Idol",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"Jschlatt",kind:0,extension:"",origName:"Jschlatt",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"Kazotsky",kind:0,extension:"",origName:"Kazotsky",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"Line_Clear",kind:0,extension:"",origName:"Line_Clear",effects:0,volume:1,pan:0,preload:false,groupId:0},
+	{pName:"LvlUp",kind:0,extension:"",origName:"LvlUp",effects:0,volume:1,pan:0,preload:false,groupId:0},
+	{pName:"Pickles",kind:0,extension:"",origName:"Pickles",effects:0,volume:1,pan:0,preload:false,groupId:0},
+	{pName:"Place",kind:0,extension:"",origName:"Place",effects:0,volume:1,pan:0,preload:false,groupId:0},
+	{pName:"Plankton",kind:0,extension:"",origName:"Plankton",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"Portal",kind:0,extension:"",origName:"Portal",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"Renai",kind:0,extension:"",origName:"Renai",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"Rotate",kind:0,extension:"",origName:"Rotate",effects:0,volume:1,pan:0,preload:false,groupId:0},
+	{pName:"T1",kind:0,extension:"",origName:"T1",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"T2",kind:0,extension:"",origName:"T2",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"T3",kind:0,extension:"",origName:"T3",effects:0,volume:1,pan:0,preload:false,groupId:1},
+	{pName:"Versus",kind:0,extension:"",origName:"Versus",effects:0,volume:1,pan:0,preload:false,groupId:1}
+],
+
+AudioGroups:[
+	{name:"audiogroup_default",enabled:true,},
+	{name:"Music",enabled:true,}
+],
+
+Sprites:[{pName:"_0",width:7,height:7,transparent:false,
 smooth:false,preload:false,bboxRight:6,bboxBottom:6,playbackspeed:30,TPEntryIndex:[27],sequence:{pName:"_0",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,keyframeStore:[],tracks:[{modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[{key:0,length:1,stretch:false,disabled:false,channels:{0:{imageIndex:0}}}]}],sequenceEvents:[],momentsKeystore:[]}},{pName:"_1",width:7,height:7,
 transparent:false,smooth:false,preload:false,bboxRight:6,bboxBottom:6,playbackspeed:30,TPEntryIndex:[28],sequence:{pName:"_1",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,keyframeStore:[],tracks:[{modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[{key:0,length:1,stretch:false,disabled:false,channels:{0:{imageIndex:0}}}]}],sequenceEvents:[],momentsKeystore:[]}},{pName:"_2",
 width:7,height:7,transparent:false,smooth:false,preload:false,bboxRight:6,bboxBottom:6,playbackspeed:30,TPEntryIndex:[29],sequence:{pName:"_2",playback:1,playbackSpeed:30,playbackSpeedType:0,length:1,xorigin:0,yorigin:0,volume:1,keyframeStore:[],tracks:[{modelName:"GMSpriteFramesTrack",pName:"frames",builtinName:0,traits:0,creationTrack:0,tags:[],ownedResourceModels:[],tracks:[],keyframeStore:[{key:0,length:1,stretch:false,disabled:false,channels:{0:{imageIndex:0}}}]}],sequenceEvents:[],momentsKeystore:[]}
